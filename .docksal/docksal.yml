@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  cli:
+    environment:
+      - APP_STAGE
+      - ASSETS_BASE_URL
+      - RDS_HOSTNAME
+      - RDS_DB_NAME
+      - RDS_USERNAME
+      - RDS_PASSWORD
